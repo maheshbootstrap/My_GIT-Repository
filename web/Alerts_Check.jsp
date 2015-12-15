@@ -60,7 +60,22 @@
                         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <div class="alert alert-info fade in" id="errormsgs">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                Enter Details...!
+            </div>
+            <div class="alert alert-success fade in" id="errormsgs">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                Enter Details...!
+            </div>
+            <div class="alert alert-danger fade in" id="errormsgs">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                Enter Details...!
+            </div>
+            <div class="alert alert-warning fade in text-center" id="errormsgs">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                Enter Details...!
+            </div> 
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
